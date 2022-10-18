@@ -1,0 +1,63 @@
+@media (max-width: 1269px){
+    .team .container-min{
+        padding: 60px 13%;
+    }
+    .container-min{
+        padding: 60px 14%;
+    }
+    .processCard, .processCard img{
+        width: 265px;
+    }
+
+    .photocard{
+        width: 270px;
+    }
+    .photocard img{
+        width: 270px;
+        height: 270px;
+    }
+
+}
+@media (max-width: 1109px){
+    .team{
+        height: 986px;
+    }
+    .team .container-min{
+        padding: 60px 14%;
+    }
+    .teamCards{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 25px;
+    }
+    .teamCard{
+        width: 280px;
+    }
+    input[type="submit"]{
+        margin-left: 23% ;
+    }
+
+}
+
+@media (max-width: 1030px){ 
+    .process{
+        height: 1020px;
+    }
+    .processCards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .processCard.chart{
+        padding-left: 55%;
+    }
+    
+    .photocards{
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 3%;
+    }
+    .photocard.town, 
+    .photocard.mountain,
+    .photocard.camera{
+        /* overflow: hidden;
+        position: absolute; */
+        display: none;
+    }
+}
